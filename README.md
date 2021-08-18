@@ -19,6 +19,12 @@ Install the following tools before getting started:
 
 You only have to do this once after cloning.
 
+Initialize AWS credentials:
+
+```shell
+$ aws configure
+```
+
 Initialize Node.js workspace:
 
 ```shell
