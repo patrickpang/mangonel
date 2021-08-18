@@ -10,10 +10,10 @@ Starter template for AWS Lambda using Node.js, TypeScript, Terraform
 
 Install the following tools before getting started:
 
-- [] [Node.js](https://nodejs.org/en/)
-- [] [pnpm](https://pnpm.io/)
-- [] [aws-cli](https://aws.amazon.com/cli/)
-- [] [Terraform](https://www.terraform.io/)
+- [ ] [Node.js](https://nodejs.org/en/)
+- [ ] [pnpm](https://pnpm.io/)
+- [ ] [aws-cli](https://aws.amazon.com/cli/)
+- [ ] [Terraform](https://www.terraform.io/)
 
 ## Initialize
 
