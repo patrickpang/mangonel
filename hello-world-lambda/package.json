@@ -1,0 +1,21 @@
+{
+  "name": "@mangonel/hello-world-lambda",
+  "version": "1.0.0",
+  "description": "Hello world lambda",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "esbuild src/index.ts --bundle --platform=node --outfile=build/index.js && node build/index.js",
+    "build": "esbuild src/index.ts --bundle --minify --platform=node --outfile=dist/index.js"
+  },
+  "license": "Unlicense",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/aws-lambda": "^8.10.82",
+    "@types/node": "^16.6.1",
+    "esbuild": "^0.12.20",
+    "pnpm": "^6.13.0"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.19"
+  }
+}
